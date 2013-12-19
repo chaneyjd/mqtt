@@ -28,7 +28,7 @@ client.on_unsubscribe = on_unsubscribe
 client.on_message = on_message
 
 client.connect("127.0.0.1")
-client.subscribe("my/topic", 0)
+client.subscribe("my/topic", 2)
 
 #while (1):
 #  time.sleep(3);
